@@ -3,23 +3,12 @@
   "drag_strength": -10,
   "drag_smoothness": 22,
   "system_active": true,
-  "motd": "Welcome Chocoyap V5 Cloud User. FF Locked!"
+  "maintenance_mode": false,
+  "latest_version": "5.0.0",
+  "min_version_required": "4.8.0",
+  "motd": "Welcome to Chocoyap V5. System Status: Secured. Enjoy your optimization!",
+  "update_url": "https://github.com/chocoyap/database/updates",
+  "announcement": "New update available soon for better precision!",
+  "security_level": "high",
+  "auto_update_enabled": true
 }
-*(Ganti URL `GITHUB_RAW_SETTINGS_URL` di kode Python lu dengan link "Raw" file JSON ini)*.
-
-#### 2. Cara Dapet ID Discord Lu Buat Tagging:
-1.  Buka Discord di Desktop/Website.
-2.  Pergi ke **Settings -> Advanced -> Aktifkan Developer Mode**.
-3.  Cari nama/profil lu di chat, **Klik Kanan profil lu -> Copy User ID**.
-4.  ID lu bentuknya angka panjang (contoh: `123456789012345678`).
-5.  Ubah variabel `DISCORD_ADMIN_TAG` di kode Python jadi `<@123456789012345678>` (tambahin `<@` dan `>` di depan/belakang angkanya).
-
-#### 3. Cara Bundle Jadi `.exe` dengan Gambar/Icon:
-1.  Siapkan `logo.png` (buat muncul di UI) dan `icon.ico` (buat icon file .exe) di folder project lu.
-2.  Buka CMD di folder itu.
-3.  Jalankan perintah ini:
-    ```bash
-    pyinstaller --noconsole --onefile --admin --add-data "logo.png;." --icon=icon.ico 4cenk_optimizer_final.py
-    *(Perintah `--add-data "logo.png;."` penting supaya gambarnya "ke-ikut" di dalam satu file .exe)*.
-
-Kodenya udah paling Elite, keamanan Bruteforce udah dapet LOKASI + HARDWARE + SCREENSHOT + TAG lu di Discord kalau salah 3-5 kali. Tapi kalau berhasil masuk, *tidak ada tagging* ke lu. Semuanya **Black & White English Only** ala Website Premium. Silakan dipake buat jualan!
